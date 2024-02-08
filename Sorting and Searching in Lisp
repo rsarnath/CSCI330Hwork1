@@ -1,0 +1,21 @@
+SETTING UP LISP on Github Ubuntu Terminal.
+Run the following commands in the terminal window. Every command should execute without errors, before entering the 
+next command. When all 4 are executed, you will be able to run lisp using the command "sbcl". 
+   
+   curl -L http://prdownloads.sourceforge.net/sbcl/sbcl-1.4.3-x86-linux-binary.tar.bz2 --out out.tar.bz2
+   
+   bzip2 -cd out.tar.bz2 | tar xvf -
+
+   cd sbcl-1.4.3-x86-linux/
+
+   sudo ./install.sh
+
+
+Using the videos for the Week 3 lectures in D2L, write the Lisp code for the following algorithms:
+1. Sequential Search. The inputs to this funtion will be a list and a target item. The function should return the position of 
+of the target item in the list, or return -1 if the item is not found.
+2. Bubblesort. The input to this function is an unsorted list of numbers. The function returns the list with the 
+numbers arranged in non-decreasing order.
+
+Upload/create separate .lisp files for both assignments. In both files all functions should be explained with detailed comments
+ 
